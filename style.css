@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: century 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+header{
+    background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url('../hd-wallpaper-3021072_1920.jpg');
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    /* opacity: 0.8; */
+}
+
+ul{
+    text-decoration: none;
+    float: right;
+    margin-top: 28px;
+}
+
+ul li{
+    display: inline-block;
+}
+
+ul li a{
+    text-decoration: none;
+    padding: 5px 18px;
+    font-size: 19px;
+    color: #fff;
+    border: 1px transparent #fff;
+    transition: 0.6s ease;
+}
+
+ul li a:hover{
+    background-color: #fff;
+    color: #000;
+}
+
+ul li.active a{
+    background-color: #fff;
+    color: #000;
+}
+
+.logo img{
+    float: left;
+    /* height: 100px; */
+    width: 130px;
+    height: auto;
+    margin-top: 25px;
+    margin-left: 5px;
+    border-radius: 22px;
+    cursor: pointer;
+}
+
+.navbar{
+    max-width: 1200px;
+    margin: auto;
+}
+
+.title{
+    position: absolute;
+    top: 50%;
+    left: 23%;
+}
+
+.title h1{
+    position: absolute;
+    width: 150vh;
+    color: #fff;
+    font-size: 62px;
+}
+
+.button{
+    position: absolute;
+    top: 62%;
+    left: 36%;
+}
+
+.btn{
+    text-decoration: none;
+    border: 1px solid #fff;
+    color: white;
+    font-size: 22px;
+    padding: 10px 18px;
+    transition: 0.6s ease;
+}
+
+.btn:hover{
+    background-color: #fff;
+    color: #000;
+}
